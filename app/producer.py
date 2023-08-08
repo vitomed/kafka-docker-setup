@@ -2,7 +2,7 @@ from random import choice
 
 from kafka import KafkaProducer
 
-from .config import ProducerConfig
+from app.config import ProducerConfig
 
 
 class MyKafkaProducer:
